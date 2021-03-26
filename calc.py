@@ -4,8 +4,8 @@ calculate = True
 
 while calculate:
     try:
-        x = int(input("Enter your first number :"))
-        y = int(input("Enter your secound number :"))
+        x = int(input("Enter your 1st number :"))
+        y = int(input("Enter your 2nd number :"))
     except(ValueError):
         print("not an integer")
     
