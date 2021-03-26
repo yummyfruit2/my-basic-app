@@ -7,7 +7,7 @@ while calculate:
         x = int(input("Enter your 1st number :"))
         y = int(input("Enter your 2nd number :"))
     except(ValueError):
-        print("not an integer")
+        print("It is not an integer")
     
     else:
         o = input("enter your operator in words :")
